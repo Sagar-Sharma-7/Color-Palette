@@ -1,6 +1,6 @@
 ## Searching for colors for your project?
 ## Don't worry just click on the link below.
-### [Color Palette]()
+### [Color Palette](https://sagar-sharma-7.github.io/Color-Palette/index.html)
 
 ### ```NOTE: Open the above link in Google Chrome...```
 
