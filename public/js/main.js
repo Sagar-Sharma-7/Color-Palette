@@ -2,6 +2,11 @@ const palatte = document.querySelectorAll(".box");
 const colorSelected = document.querySelector("#color-inp");
 const copyBtn = document.querySelector("#copyBtn");
 
+
+palatte.forEach((palatteBox) => {
+    palatteBox.style.backgroundColor = palatteBox.innerHTML;
+})
+
 palatte.forEach((colorPalatte) => {
     colorPalatte.addEventListener("click", () => {
         const hexcode = colorPalatte.innerHTML;
