@@ -68,4 +68,25 @@ h1{
     h3{
         margin: 4vw 2vw 1vw 2vw;
     }
+    .outer-box{
+        display: grid;
+        width: 96.3vw;
+        grid-template-columns: repeat(6, 1fr);
+        .box{
+            margin: 1vw;
+            justify-content: space-between;
+            border-radius: 20px;
+            cursor: pointer;
+            transition-duration: 500ms;
+            padding-top: 5.2em;
+            padding-bottom: 5.2em;
+            text-align: center;
+             font-size: 2vw;
+             font-family: 'Special Elite', cursive;
+             &:hover{
+                transform: scale(1.1);
+                color: #000;
+             }
+        }
+    }
 }
