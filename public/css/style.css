@@ -110,4 +110,78 @@ h1 {
           transform: scale(1.1);
   color: #000;
 }
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #color-pickr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #color-pickr input[type="color"] {
+  width: 80vw;
+  cursor: pointer;
+  margin: 1vw;
+  height: 5vw;
+  border: none;
+  outline: none;
+}
+
+footer #color-pickr input[type="color"]:hover {
+  background-color: #1e1e1e;
+}
+
+footer #color-pickr #copyBtn {
+  background-color: #7df981;
+  height: 50px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border: 2px solid #7DF981;
+  font-size: 1.5vw;
+  margin: 1vw;
+  width: 30vw;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+footer #color-pickr #copyBtn:hover {
+  background-color: #1e1e1e;
+  color: #7DF981 !important;
+  border: 2px solid #7DF981;
+}
+
+footer a {
+  color: #F95700FF;
+  text-decoration: none;
+}
+
+footer a .fa-heart {
+  color: #F95700FF;
+}
 /*# sourceMappingURL=style.css.map */
