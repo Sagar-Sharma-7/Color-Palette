@@ -140,3 +140,34 @@ footer{
     }
 }
 
+/* responsive */
+@media all and (max-width: 1000px){
+    h1{
+        font-size: 5vw;
+    }
+    header{
+        h2{
+            font-size:3vw;
+        }
+        button{
+            font-size: 2vw;
+        }
+    }
+    #color-container{
+        .outer-box{
+            justify-content: center;
+            grid-template-columns: repeat(3, 1fr);
+            .box{
+                width: 30vw;
+            }
+        }
+
+    }
+    footer{
+        #color-pickr{
+            #copyBtn{
+                width: 50vw;
+            }
+        }
+    }
+}

@@ -184,4 +184,30 @@ footer a {
 footer a .fa-heart {
   color: #F95700FF;
 }
+
+/* responsive */
+@media all and (max-width: 1000px) {
+  h1 {
+    font-size: 5vw;
+  }
+  header h2 {
+    font-size: 3vw;
+  }
+  header button {
+    font-size: 2vw;
+  }
+  #color-container .outer-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  #color-container .outer-box .box {
+    width: 30vw;
+  }
+  footer #color-pickr #copyBtn {
+    width: 50vw;
+  }
+}
 /*# sourceMappingURL=style.css.map */
