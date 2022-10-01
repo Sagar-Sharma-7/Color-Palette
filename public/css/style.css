@@ -204,10 +204,55 @@ footer a .fa-heart {
         grid-template-columns: repeat(3, 1fr);
   }
   #color-container .outer-box .box {
-    width: 30vw;
+    width: 95%;
   }
   footer #color-pickr #copyBtn {
     width: 50vw;
+  }
+}
+
+@media all and (max-width: 800px) {
+  h1 {
+    font-size: 6vw;
+  }
+  header button {
+    font-size: 3.2vw;
+  }
+  #color-container .outer-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  #color-container .outer-box .box {
+    width: 95%;
+    font-size: 2.5vw;
+  }
+  footer #color-pickr #copyBtn {
+    width: 60vw;
+    font-size: 2vw;
+  }
+}
+
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 7vw;
+  }
+  #color-container .outer-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  #color-container .outer-box .box {
+    width: 100%;
+    font-size: 3vw;
+  }
+  footer #color-pickr #copyBtn {
+    width: 80vw;
+    font-size: 3vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
