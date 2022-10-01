@@ -187,7 +187,7 @@ footer{
             justify-content: center;
             grid-template-columns: repeat(2, 1fr);
             .box{
-                width: 30vw;
+                width: 42vw;
                 font-size: 2.5vw;
             }
         }
@@ -202,3 +202,30 @@ footer{
         }
     }
 }
+
+
+@media all and (max-width:500px){
+    h1{
+        font-size: 7vw;
+    }
+    #color-container{
+        .outer-box{
+            justify-content: center;
+            grid-template-columns: repeat(1, 1fr);
+            .box{
+                width: 87vw;
+                font-size: 3vw;
+            }
+        }
+
+    }
+    footer{
+        #color-pickr{
+            #copyBtn{
+                width: 80vw;
+                font-size: 3vw;
+            }
+        }
+    }
+}
+
