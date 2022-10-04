@@ -156,6 +156,7 @@ footer{
     #color-container{
         .outer-box{
             justify-content: center;
+            width: 93.3vw;
             grid-template-columns: repeat(3, 1fr);
             .box{
                 width: 95%;
@@ -186,6 +187,8 @@ footer{
         .outer-box{
             justify-content: center;
             grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1vw;
+            width: 90.8vw;
             .box{
                 width: 95%;
                 font-size: 2.5vw;
@@ -211,6 +214,7 @@ footer{
     #color-container{
         .outer-box{
             justify-content: center;
+            width: 90.8vw;
             grid-template-columns: repeat(1, 1fr);
             .box{
                 width: 100%;

@@ -200,6 +200,7 @@ footer a .fa-heart {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 93.3vw;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
@@ -224,6 +225,8 @@ footer a .fa-heart {
             justify-content: center;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1vw;
+    width: 90.8vw;
   }
   #color-container .outer-box .box {
     width: 95%;
@@ -243,6 +246,7 @@ footer a .fa-heart {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 90.8vw;
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
