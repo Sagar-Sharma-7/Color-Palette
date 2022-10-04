@@ -71,6 +71,7 @@ h1{
     .outer-box{
         display: grid;
         width: 96.3vw;
+        grid-gap: 1vw;
         grid-template-columns: repeat(6, 1fr);
         .box{
             margin: 1vw;
@@ -187,7 +188,6 @@ footer{
         .outer-box{
             justify-content: center;
             grid-template-columns: repeat(2, 1fr);
-            grid-gap: 1vw;
             width: 90.8vw;
             .box{
                 width: 95%;

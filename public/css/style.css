@@ -85,6 +85,7 @@ h1 {
   display: -ms-grid;
   display: grid;
   width: 96.3vw;
+  grid-gap: 1vw;
   -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
 }
@@ -225,7 +226,6 @@ footer a .fa-heart {
             justify-content: center;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1vw;
     width: 90.8vw;
   }
   #color-container .outer-box .box {
