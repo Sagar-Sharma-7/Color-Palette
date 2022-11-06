@@ -46,6 +46,7 @@ header{
 .container{
     color: rgb(255, 255, 255);
     .box{
+        margin-top: 4%;
         @include dimension(100%, auto);
         @include flex();
         flex-direction: column;
@@ -54,41 +55,66 @@ header{
             margin-top: 4%;
             @include grid(8);
             margin-left: 21vw;
-            div{
-                @include dimension(150px, 150px);
-                border-radius: 50%;
-            }
             .palette{
                 position: relative;
-                box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+                @include dimension(150px, 200px);
+                @include flex();
+                flex-direction: column;
+                .hexcode{
+                    margin-top: 2vh;
+                    font-size: 10px;
+                }
+                .circle{
+                    @include dimension(150px, 150px);
+                    border-radius: 50%;
+                    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+                }
             }
             .palette:nth-child(1){
-                background-color: #9100B5;
+                .circle{
+                    background-color: #9100B5;
+                }
             }
             .palette:nth-child(2){
                 left: -3vw;
-                background-color: #B000DC;
+                .circle{
+                     background-color: #B000DC;
+                }
             }
             .palette:nth-child(3){
                 left: -6vw;
-                background-color:#CC00FF ;
+                .circle{
+                     background-color:#CC00FF ;
+                }
             }
             .palette:nth-child(4){
                 left: -9vw;
-                background-color:#D52BFF ;
+                .circle{
+                     background-color:#D52BFF ;
+                }
             }.palette:nth-child(5){
                 left: -12vw;
-                background-color: #E167FF;
+                .circle{
+                     background-color: #E167FF;
+                }
             }.palette:nth-child(6){
                 left: -15vw;
-                background-color: #E789FF;
+                .circle{
+                     background-color: #E789FF;
+                }
             }.palette:nth-child(7){
                 left: -18vw;
-                background-color: #EEABFF;
+                .circle{
+                     background-color: #EEABFF;
+                }
             }.palette:nth-child(8){
                 left: -21vw;
-                background-color: #F5CDFF;
+                .circle{
+                     background-color: #F5CDFF;
+                }
             }
         }
     }
 }
+
+
