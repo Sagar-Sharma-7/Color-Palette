@@ -38,7 +38,6 @@ header img {
 }
 
 .container .box {
-  margin-top: 1%;
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -58,7 +57,8 @@ header img {
 }
 
 .container .box .palette_box {
-  margin-top: 2%;
+  margin-top: 1%;
+  margin-bottom: 3%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[8];
