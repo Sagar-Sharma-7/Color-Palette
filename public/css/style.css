@@ -38,7 +38,7 @@ header img {
 }
 
 .container .box {
-  margin-top: 4%;
+  margin-top: 1%;
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -58,7 +58,7 @@ header img {
 }
 
 .container .box .palette_box {
-  margin-top: 4%;
+  margin-top: 2%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[8];
@@ -96,6 +96,15 @@ header img {
   border-radius: 50%;
   -webkit-box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
           box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+.container .box .palette_box .palette .circle:hover {
+  z-index: 9999;
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .container .box .palette_box .palette:nth-child(1) .circle {

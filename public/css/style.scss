@@ -46,13 +46,13 @@ header{
 .container{
     color: rgb(255, 255, 255);
     .box{
-        margin-top: 4%;
+        margin-top: 1%;
         @include dimension(100%, auto);
         @include flex();
         flex-direction: column;
         overflow: hidden;
         .palette_box{
-            margin-top: 4%;
+            margin-top: 2%;
             @include grid(8);
             margin-left: 21vw;
             .palette{
@@ -68,6 +68,13 @@ header{
                     @include dimension(150px, 150px);
                     border-radius: 50%;
                     box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+                    transition: 400ms;
+
+                    &:hover{
+                        z-index: 9999;
+                        cursor: pointer;
+                        transform: scale(1.1);
+                    }
                 }
             }
             .palette:nth-child(1){
