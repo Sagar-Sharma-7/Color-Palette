@@ -6,6 +6,24 @@
           box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2c8151), to(#61f5a1));
+  background: linear-gradient(to top, #2c8151, #61f5a1);
+}
+
+/* Up and Down Button*/
+::-webkit-scrollbar-button {
+  background-color: #000;
+}
+
 html {
   font-size: 12px;
   scroll-behavior: smooth;

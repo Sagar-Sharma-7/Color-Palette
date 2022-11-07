@@ -22,6 +22,24 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, rgb(44, 129, 81), rgb(97, 245, 161)); 
+}
+  
+  
+/* Up and Down Button*/
+::-webkit-scrollbar-button{
+    background-color: #000;
+}
+
 html {
     font-size: 12px;
     @media (min-width: 700px) {
@@ -29,6 +47,8 @@ html {
     }
     scroll-behavior: smooth;
 }
+
+
 
 body{
     background-color: rgb(0, 0, 0);
