@@ -166,3 +166,33 @@ header{
     }
 }
 
+
+@media all and (max-width:600px){
+    .container{
+        .box{
+            .palette_box{
+                .palette{
+                    @include dimension(100px, 150px);
+                    .circle{
+                        @include dimension(100px, 100px)
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width:390px){
+    .container{
+        .box{
+            .palette_box{
+                .palette{
+                    @include dimension(70px, 120px);
+                    .circle{
+                        @include dimension(70px, 70px)
+                    }
+                }
+            }
+        }
+    }
+}

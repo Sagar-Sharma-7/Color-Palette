@@ -193,4 +193,26 @@ header img {
     left: -9vw !important;
   }
 }
+
+@media all and (max-width: 600px) {
+  .container .box .palette_box .palette {
+    width: 100px;
+    height: 150px;
+  }
+  .container .box .palette_box .palette .circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .container .box .palette_box .palette {
+    width: 70px;
+    height: 120px;
+  }
+  .container .box .palette_box .palette .circle {
+    width: 70px;
+    height: 70px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
