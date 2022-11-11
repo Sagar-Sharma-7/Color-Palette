@@ -27,7 +27,15 @@ const colorList = [
     '#050DFF',
     '#1A21FF',
     '#383FFF',
-    '#4D52FF'
+    '#4D52FF',
+    '#1AB800',
+    '#1BBE00',
+    '#1DCE00',
+    '#1FDD00',
+    '#21EE00',
+    '#24FF00',
+    '#46FF28',
+    '#9CFF8C',
 ]
 
 let n = circle.length;
