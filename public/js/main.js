@@ -65,6 +65,13 @@ const colorList = [
 let n = circle.length;
 let i;
 for(i = 0; i < n; i++){
-    hexcode[i].innerHTML = colorList[i]
-    circle[i].style.backgroundColor = colorList[i]
+    hexcode[i].innerHTML = colorList[i];
+    circle[i].style.backgroundColor = colorList[i];
+    circle[i].title = i
 }
+
+circle.forEach(item => {
+    item.addEventListener("click", () => {
+        console.log(colorList[item.title]);
+    })
+});
