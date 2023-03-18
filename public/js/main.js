@@ -1,6 +1,31 @@
+// const palette = document.querySelectorAll(".palette");
+// const circle = document.querySelectorAll(".circle");
+const palette_box = document.querySelectorAll(".palette_box");
+
+// creating palette
+palette_box.forEach(item => {
+    // creating eight palette in each palette_box
+    let x = 0;
+    for(;x < 8; x++){
+        const palette = document.createElement("div");  
+        palette.classList.add('palette');
+        item.appendChild(palette);
+    }
+});
 const palette = document.querySelectorAll(".palette");
+
+// creating circle and hexcode paragraph
+palette.forEach(item => {
+    const circle = document.createElement("div");
+    const hexcode = document.createElement("p")
+    circle.classList.add("circle");
+    hexcode.classList.add("hexcode");
+    item.appendChild(circle);
+    item.appendChild(hexcode);
+});
 const circle = document.querySelectorAll(".circle");
 const hexcode = document.querySelectorAll(".hexcode");
+
 
 
 const colorList = [
@@ -60,7 +85,8 @@ const colorList = [
     '#FF5472',
     '#FD627D',
     '#FB738B',
-]
+];
+
 
 let n = circle.length;
 let i;
