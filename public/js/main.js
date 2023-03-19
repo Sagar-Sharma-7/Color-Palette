@@ -50,5 +50,6 @@ for(i = 0; i < n; i++){
 circle.forEach(item => {
     item.addEventListener("click", () => {
         navigator.clipboard.writeText(item.title);
+        alert(item.title + " is copied!")
     })
 });
