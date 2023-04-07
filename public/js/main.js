@@ -35,6 +35,7 @@ const colorList = [
     '#1AB800','#1BBE00','#1DCE00','#1FDD00','#21EE00','#24FF00','#46FF28','#9CFF8C', // Green
     '#00AF9E','#06CFBB','#00DEC8','#00F5DD','#10FFE7','#32FFEA','#57FFEE','#88FFF3', // Turquoise
     '#AD0000','#BC0000','#C90000','#DE0000','#EF0707','#FD0707','#FF1B1B','#FF4747', // Red
+    '#F9F900','#FFFF0D','#FFFF1F','#FCFC34','#FFFF3D','#FFFF5A','#FFFF74','#FFFF92', // Yellow
     '#D11D3C','#E72244','#F92F51','#FF385B','#FF4868','#FF5472','#FD627D','#FB738B', // Pink
 ];
 
