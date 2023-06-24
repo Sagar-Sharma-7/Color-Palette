@@ -167,7 +167,12 @@ header{
                 left: -21vw;
             }
         }
+ 
+        &:nth-last-child(1){
+            margin-bottom: 50px;
+        }
 }
+
 
 
 
