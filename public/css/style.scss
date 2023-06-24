@@ -136,7 +136,7 @@ header{
                     transition: 400ms;
 
                     &:hover{
-                        z-index: 9999;
+                        z-index: 9998;
                         cursor: pointer;
                         transform: scale(1.1);
                         // transform: rotateZ(360deg);
@@ -179,6 +179,7 @@ footer{
     padding: 10px 10px;
     @include dimension(100vw, auto);
     @include flex(center, center);
+    z-index: 9999;
 }
 
 @media all and (max-width:1050px){
