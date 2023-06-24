@@ -63,6 +63,18 @@ header{
     }
 }
 
+.left_social_box{
+    background: #161616;
+    font-size: 20px;
+    position: fixed;
+    top: 50%;
+    transform: translate(0,-50%);
+    @include dimension(50px, 100px);
+    @include flex(space-evenly, center);
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0px;
+}
+
 .container{
     color: rgb(255, 255, 255);
     .box{
@@ -135,6 +147,10 @@ footer{
 }
 
 @media all and (max-width:1050px){
+    .left_social_box{
+        @include dimension(40px, 90px);
+        font-size: 18px;
+    }
     .container{
         .box{
             .palette_box{
@@ -150,6 +166,9 @@ footer{
 }
 
 @media all and (max-width:750px){
+    .left_social_box{
+        display: none;
+    }
     .container{
         .box{
             .palette_box{
@@ -179,6 +198,9 @@ footer{
 
 
 @media all and (max-width:600px){
+    .left_social_box{
+        display: none;
+    }
     .container{
         .box{
             .palette_box{
@@ -194,6 +216,9 @@ footer{
 }
 
 @media all and (max-width:390px){
+    .left_social_box{
+        display: none;
+    }
     .container{
         .box{
             .palette_box{
