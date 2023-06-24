@@ -4,6 +4,7 @@ const palette_box = document.querySelectorAll(".palette_box"),
       cross_btn = document.querySelector("#cross_info_btn"),
       info_box = document.querySelector(".info_box");
 
+// timer to show info box
 
 // closing the info box
 cross_btn.addEventListener("click", () => {
