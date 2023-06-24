@@ -9,7 +9,7 @@ const timer = () => {
     setTimeout(() => {
         info_box.style.display = "flex";
     }, 1500);
-}
+};
 
 // closing the info box
 cross_btn.addEventListener("click", () => {
