@@ -1,7 +1,14 @@
 // const palette = document.querySelectorAll(".palette");
 // const circle = document.querySelectorAll(".circle");
-const palette_box = document.querySelectorAll(".palette_box");
+const palette_box = document.querySelectorAll(".palette_box"),
+      cross_btn = document.querySelector("#cross_info_btn"),
+      info_box = document.querySelector(".info_box");
 
+
+// closing the info box
+cross_btn.addEventListener("click", () => {
+    info_box.style.display = "none";
+});
 // creating palette
 palette_box.forEach(item => {
     // creating eight palette in each palette_box
