@@ -69,9 +69,15 @@ circle.forEach(item => {
     item.addEventListener("click", () => {
         navigator.clipboard.writeText(item.title);
         // alert(item.title + " is copied!")
-        footer.style.backgroundColor = "green";
+        let copied_text = item.title + " is copied!"
+        footer.style.backgroundColor = "#3eff21";
+        footer.style.color = "black";
+        footer.style.fontWeight = "600"
+        footer.innerHTML = copied_text;
         setTimeout(() => {
-        footer.style.backgroundColor = "blue";
+            footer.style.backgroundColor = "#161616";
+            footer.style.color = "#ffffff";
+            footer.innerHTML = 'Made with  <i class="fa-solid fa-heart" style="color: #f00a0a;"></i>  by Sagar Sharma'
         }, 2000);
     })
 });
