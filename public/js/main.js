@@ -5,6 +5,11 @@ const palette_box = document.querySelectorAll(".palette_box"),
       info_box = document.querySelector(".info_box");
 
 // timer to show info box
+const timer = () => {
+    setTimeout(() => {
+        info_box.style.display = "flex";
+    }, 1500);
+}
 
 // closing the info box
 cross_btn.addEventListener("click", () => {
@@ -64,3 +69,7 @@ circle.forEach(item => {
         alert(item.title + " is copied!")
     })
 });
+
+
+// calling timer function
+timer();
