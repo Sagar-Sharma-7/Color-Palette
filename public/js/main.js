@@ -2,7 +2,9 @@
 // const circle = document.querySelectorAll(".circle");
 const palette_box = document.querySelectorAll(".palette_box"),
       cross_btn = document.querySelector("#cross_info_btn"),
-      info_box = document.querySelector(".info_box");
+      info_box = document.querySelector(".info_box"),
+      footer = document.querySelector("footer"),
+      footer_text = document.querySelector("#footer_text");
 
 // timer to show info box
 const timer = () => {
@@ -66,10 +68,14 @@ for(i = 0; i < n; i++){
 circle.forEach(item => {
     item.addEventListener("click", () => {
         navigator.clipboard.writeText(item.title);
-        alert(item.title + " is copied!")
+        // alert(item.title + " is copied!")
+        footer.style.backgroundColor = "green";
+        setTimeout(() => {
+        footer.style.backgroundColor = "blue";
+        }, 2000);
     })
 });
 
 
 // calling timer function
-timer();
+// timer();
