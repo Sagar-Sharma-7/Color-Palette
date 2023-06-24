@@ -84,4 +84,4 @@ circle.forEach(item => {
 
 
 // calling timer function
-// timer();
+timer();
