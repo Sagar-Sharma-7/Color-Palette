@@ -36,6 +36,7 @@ html {
 }
 
 body {
+  cursor: url("../images/cursor.png"), auto;
   background-color: black;
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;

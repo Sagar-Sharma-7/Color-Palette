@@ -40,6 +40,8 @@
     background-color: #000;
 }
 
+
+
 html {
     font-size: 12px;
     @media (min-width: 700px) {
@@ -51,6 +53,7 @@ html {
 
 
 body{
+    cursor: url("../images/cursor.png"), auto;
     background-color: rgb(0, 0, 0);
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
