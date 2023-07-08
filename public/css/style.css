@@ -95,7 +95,7 @@ header img {
 }
 
 .info_box button:hover {
-  cursor: pointer;
+  cursor: url("../images/handcursor.png"), auto;
 }
 
 .left_social_box {
@@ -192,7 +192,7 @@ header img {
 
 .container .box .palette_box .palette .circle:hover {
   z-index: 9998;
-  cursor: pointer;
+  cursor: url("../images/handcursor.png"), auto;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

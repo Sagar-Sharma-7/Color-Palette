@@ -94,7 +94,7 @@ header{
         box-shadow: none;
         border: none;
         &:hover{
-            cursor: pointer;
+            cursor: url("../images/handcursor.png"), auto;
         }
     }
 }
@@ -140,7 +140,7 @@ header{
 
                     &:hover{
                         z-index: 9998;
-                        cursor: pointer;
+                        cursor: url("../images/handcursor.png"), auto;
                         transform: scale(1.1);
                         // transform: rotateZ(360deg);
                         // border-radius: 0%;
