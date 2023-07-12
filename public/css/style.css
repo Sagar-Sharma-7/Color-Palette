@@ -38,7 +38,7 @@ html {
 body {
   cursor: url("../images/cursor.png"), auto;
   background-color: black;
-  font-family: 'Kugile';
+  font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
 }
 
